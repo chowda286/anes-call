@@ -20,25 +20,25 @@ public class Client {
     int maxqcalls = 3;
     public static void main(String args[]) throws java.io.IOException {
         // Create an array of persons and names
-        String[] name1 = {"Ayoola", "Chancer", "Chriss", "Devita", "Formanek", "Henderson", "Running", "Schorr", "Srinivas", "Wallace", "Watterworth", "Yu"};
-        String[] rotation1 = {"VascTx", "General", "General", "General", "VA", "General", "OffFloor", "OrthoPain", "General", "General", "General", "PACUGen"};
-        boolean[] obEligible1 = {false, false, false, false, false, false, false, false, false, false, false, false};
-        boolean[] gorEligible1 = {true, true, true, true, true, true, true, true, true, true, true, true};
-        int[] rank1 = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        String[] name1=         {"Ayoola",  "Chancer",  "Chriss",  "Devita",   "Formanek", "Henderson", "Running",   "Schorr",     "Srinivas", "Wallace", "Watterworth", "Yu"};
+        String[] rotation1=     {"VascTx", "General",  "General", "General",  "VA",       "General",   "OffFloor", "OrthoPain", "General",  "General", "General",     "PACUGen"};
+        boolean[] obEligible1=  { false,     false,      false,     false,      false,      false,       false,       false,        false,      false,     false,         false};
+        boolean[] gorEligible1= { true,      true,       true,      true,       true,      true,        true,        true,         true,       true,      true,          true};
+        int[] rank1=            { 1,         1,          1,         1,          1,          1,           1,           1,            1,          1,         1,             1};
 
-        String[] name2 = {"Cardillo", "Chow", "Cunniff", "Humsi", "Kiefer", "Kokajko", "Lofton", "Neary", "Nwosu", "Pierre", "SmithE", "Wright"};
-        String[] rotation2 = {"Neuro", "Peds", "SICU", "OB", "Trauma", "ChronicPain", "SICU", "Kernan", "Cardiac", "OB1", "Kernan", "Peds"};
-        boolean[] obEligible2 = {true, true, false, false, false, true, false, false, false, false, false, true};
-        boolean[] gorEligible2 = {true, true, false, true, false, true, false, true, true, true, true, true};
-        int[] rank2 = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
+        String[] name2=         {"Cardillo", "Chow",   "Cunniff","Humsi",  "Kiefer", "Kokajko",      "Lofton", "Neary", "Nwosu",   "Pierre", "SmithE",  "Wright"};
+        String[] rotation2=     {"Neuro",    "Peds",   "SICU",   "OB",     "Trauma", "ChronicPain",  "SICU",   "Kernan","Cardiac", "OB1",    "Kernan",  "Peds"};
+        boolean[] obEligible2=  { true,       true,     false,   false,     false,    true,           false,    false,   false,    false,    false,     true};
+        boolean[] gorEligible2= { true,       true,     false,   true,      false,    true,           false,    true,    true,      true,     true,      true};
+        int[] rank2 =           { 2,          2,        2,        2,         2,        2,             2,        2,       2,          2,        2,         2};
 
-        String[] name3 = {"Chettiar", "Jeyakumar", "Kim", "Le", "Neely", "Nguyen", "Ofosu", "Patel", "Shteyman", "Watanaskul", "Williams", "Zhu"};
-        String[] rotation3 = {"Neuro", "Trauma", "ChronicPain", "Thoracic", "Peds", "Cardiac", "OB", "NeuroMon", "General", "Cardiac", "Peds", "UMRAS"};
-        boolean[] obEligible3 = {true, false, true, true, true, true, true, true, true, true, true, true};
-        boolean[] gorEligible3 = {true, false, true, true, true, true, false, true, true, true, true, true};
-        int[] rank3 = {3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3};
+        String[] name3 =        {"Chettiar", "Jeyakumar", "Kim",          "Le",       "Neely", "Nguyen",  "Ofosu", "Patel",    "Shteyman", "Watanaskul", "Williams", "Zhu"};
+        String[] rotation3=     {"Neuro",    "Trauma",    "ChronicPain",  "Thoracic", "Peds",  "Cardiac", "OB",   "NeuroMon", "General",  "Cardiac",    "Peds",     "UMRAS"};
+        boolean[] obEligible3=  { true,       false,       true,          true,       true,    true,      true,    true,       true,       true,         true,       true};
+        boolean[] gorEligible3= { true,       false,       true,          true,       true,    true,      false,   true,       true,       true,         true,       true};
+        int[] rank3 =           { 3,           3,          3,             3,          3,       3,         3,       3,          3,          3,            3,          3};
 
-
+        ////////////////////////////////////////
         Connection conn = null;
 
         try {
